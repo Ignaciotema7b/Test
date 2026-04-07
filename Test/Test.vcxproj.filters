@@ -20,16 +20,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\GameTemplate.cpp">
+    <ClCompile Include="src\Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameTemplate_config.cpp">
+    <ClCompile Include="src\Test_config.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameTemplate_main.cpp">
+    <ClCompile Include="src\Test_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameTemplate_stats.cpp">
+    <ClCompile Include="src\Test_stats.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CommonLib\src\Game.cpp">
@@ -73,13 +73,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\GameTemplate.h">
+    <ClInclude Include="src\Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameTemplate_config.h">
+    <ClInclude Include="src\Test_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameTemplate_stats.h">
+    <ClInclude Include="src\Test_stats.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CommonLib\include\Game.h">

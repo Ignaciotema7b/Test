@@ -2,7 +2,7 @@
 #include "../CommonLib/include/Slot_config.h"
 
 
-class GameTemplate_config :
+class Test_config :
     public Slot_config
 
 {

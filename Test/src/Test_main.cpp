@@ -1,5 +1,5 @@
 //  ***************************************************************
-//  GameTemplate - Creation date: 25/03/2026 13:36:03
+//  Test - Creation date: 25/03/2026 13:36:03
 //  -------------------------------------------------------------
 //  License: Uh, check for license.txt or license.md for that?
 //
@@ -21,14 +21,14 @@
 
 using namespace std;
 
-#include "GameTemplate.h"
+#include "Test.h"
 
 
 int main()
 {
-    GameTemplate* game = new GameTemplate() ;
+    Test* game = new Test() ;
 
-    string game_name = "GameTemplate";
+    string game_name = "Test";
 
     clock_t begin, end;
     double time_spent;

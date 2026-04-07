@@ -1,16 +1,16 @@
 #pragma once
 #include "../CommonLib/include/Slot.h"
 #include "../CommonLib/include/rnd_log.h"
-#include "GameTemplate_config.h"
-#include "GameTemplate_stats.h"
+#include "Test_config.h"
+#include "Test_stats.h"
 
-class GameTemplate :
+class Test :
     public Slot
 {
 public:
     void generate_json(Game_info info);
-    GameTemplate_config config;
-    GameTemplate_stats stats;
+    Test_config config;
+    Test_stats stats;
 
     void init(Game_info info);
 
